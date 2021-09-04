@@ -1,0 +1,17 @@
+{
+	"discord_token": "token-here",
+	"song_directory": "audio/",
+	"color_song_embed": 6982092,
+	"color_vote_embed": 6982092,
+	"image_default_cover": "https://i.ibb.co/2ZVGKqm/coverart-default.png",
+	"image_voting_thumbnail": "https://i.ibb.co/C9hCH2s/voting-default.jpg",
+	"vote_after": 20,
+	"text_channels": [
+
+	],
+	"voice_channels": [
+
+	],
+	"command_prefix": "!!"
+
+}
