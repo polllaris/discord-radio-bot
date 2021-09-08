@@ -4,6 +4,19 @@
 Start a radio in your discord servers, stream mp3s to multiple servers 24/7 \
 customize embed colors, voting thumbnail and more!
 
+<b>THIS SCRIPT REQUIRES THE FOLLOWING MODULES:</b>
+
+<ul>
+	<li>discord</li>
+	<li>eyed3</li>
+	<li>PyNaCl</li>
+</ul>
+
+<b>NOTE:</b> \
+[You will need to have ffmpeg installed and in your environment path
+in order for the discord module to be able to stream audio.](https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10)
+
+
 ## CONFIGURATION
 
 You can configure this bot to your liking by editing
@@ -34,6 +47,9 @@ voice_channels:
 command_prefix:
 	the prefix to use for bot commands i.e. !! vote
 </pre>
+
+
+
 ### BEHAVIOR
 
 The bot will start, it will load music into a playlist from the \
@@ -50,9 +66,13 @@ If/when last song in the playlist/queue is reached, the playlist is reshuffled a
 
 #### RUNNING
 
+
+
 <pre>
 python discord-radio-bot.py -f config/fillme.json
 </pre>
+
+
 
 ##### WHERE TO GET FREE MUSIC
 
