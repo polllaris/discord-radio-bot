@@ -13,7 +13,7 @@ customize embed colors, voting thumbnail and more!
 </ul>
 
 <b>NOTE:</b> \
-[You will need to have ffmpeg installed and in your environment path
+[You will need to have ffmpeg installed and in your environment path \
 in order for the discord module to be able to stream audio.](https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10)
 
 
