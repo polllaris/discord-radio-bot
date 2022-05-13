@@ -40,6 +40,8 @@ image_voting_thumbnail:
 	a link to an image to use for the thumbnail
 vote_after:
 	how many songs before starting a vote for next song.
+vote_candidates:
+	how many songs to choose at random for the song vote selection.
 text_channels:
 	a list of ids of text channels to place embeds in.
 voice_channels:
