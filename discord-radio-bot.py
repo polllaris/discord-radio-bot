@@ -564,7 +564,7 @@ class Radio:
 			await self.client.change_presence(activity=discord.Game(name=self.current_song))
 
 			if self.queue.index % self.config.vote_after == 0:
-				self.current_vote = RadioSongVote(self.playlist)
+				self.current_vote = RadioSongVote(self.playlist, self.config.vote_candidates)
 				self.vote_embedder = Embedder(text_channels, vote_embed_factory)
 			else:
 				self.current_vote = None
